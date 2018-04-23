@@ -1,0 +1,179 @@
+NAME OF DATA ELEMENT,dev-category,developer-friendly name,API data type,VARIABLE NAME,VALUE,LABEL,SOURCE, NOTES
+UNITID: 
+Unit ID for institution,root,id,integer,UNITID,,,IPEDS,Shown/used on consumer website.
+OPEID: 
+8-digit OPE ID for institution,root,ope8_id,integer,OPEID,,,IPEDS,Shown/used on consumer website.
+OPEID6: 
+6-digit OPE ID for institution,root,ope6_id,integer,OPEID6,,,IPEDS,Shown/used on consumer website.
+INSTNM: 
+Institution name,school,name,autocomplete,INSTNM,,,IPEDS,Shown/used on consumer website.
+COUNT_ED: 
+Count of students in the earnings cohort,earnings,student_count,integer,COUNT_ED,,,Treasury,
+AGEGE24: 
+Percent of students over 23 at entry,student,demographics.over_23_at_entry,float,AGEGE24,,,NSLDS,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+PCT_WHITE: 
+"Percent of the population from students' zip codes that is White, via Census data",student,demographics.share_white.home_ZIP,float,PCT_WHITE,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+PCT_BLACK: 
+"Percent of the population from students' zip codes that is Black, via Census data",student,demographics.share_black.home_ZIP,float,PCT_BLACK,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+PCT_ASIAN: 
+"Percent of the population from students' zip codes that is Asian, via Census data",student,demographics.share_asian.home_ZIP,float,PCT_ASIAN,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+PCT_HISPANIC: 
+"Percent of the population from students' zip codes that is Hispanic, via Census data",student,demographics.share_hispanic.home_ZIP,float,PCT_HISPANIC,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+PCT_BA: 
+"Percent of the population from students' zip codes with a bachelor's degree over the age 25, via Census data",student,demographics.share_bachelors_degree_age25.home_ZIP,float,PCT_BA,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+PCT_GRAD_PROF: 
+"Percent of the population from students' zip codes over 25 with a professional degree, via Census data",student,demographics.share_professional_degree_age25.home_ZIP,float,PCT_GRAD_PROF,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+PCT_BORN_US: 
+"Percent of the population from students' zip codes that was born in the US, via Census data",student,demographics.share_born_US.home_ZIP,float,PCT_BORN_US,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+MEDIAN_HH_INC: 
+Median household income,student,demographics.median_hh_income,integer,MEDIAN_HH_INC,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+POVERTY_RATE: 
+"Poverty rate, via Census data",student,demographics.poverty_rate,float,POVERTY_RATE,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+UNEMP_RATE: 
+"Unemployment rate, via Census data",student,demographics.unemployment,float,UNEMP_RATE,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+LN_MEDIAN_HH_INC: 
+Log of the median household income,student,demographics.median_hh_income_log,integer,LN_MEDIAN_HH_INC,,,Treasury,Data element describes the earnings cohort (without exclusions for military and in-school deferments in the measurement year)
+COUNT_NWNE_P10: 
+Number of students not working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.not_working_not_enrolled.overall,integer,COUNT_NWNE_P10,,,Treasury,
+COUNT_WNE_P10: 
+Number of students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.working_not_enrolled.overall,integer,COUNT_WNE_P10,,,Treasury,
+MN_EARN_WNE_P10: 
+Mean earnings of students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.working_not_enrolled.mean_earnings,integer,MN_EARN_WNE_P10,,,Treasury,
+MD_EARN_WNE_P10: 
+Median earnings of students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.median,integer,MD_EARN_WNE_P10,,,Treasury,Shown/used on consumer website.
+PCT10_EARN_WNE_P10: 
+10th percentile of earnings of students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.working_not_enrolled.earnings_percentile.10,integer,PCT10_EARN_WNE_P10,,,Treasury,
+PCT25_EARN_WNE_P10: 
+25th percentile of earnings of students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.working_not_enrolled.earnings_percentile.25,integer,PCT25_EARN_WNE_P10,,,Treasury,
+PCT75_EARN_WNE_P10: 
+75th percentile of earnings of students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.working_not_enrolled.earnings_percentile.75,integer,PCT75_EARN_WNE_P10,,,Treasury,
+PCT90_EARN_WNE_P10: 
+90th percentile of earnings of students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.working_not_enrolled.earnings_percentile.90,integer,PCT90_EARN_WNE_P10,,,Treasury,
+SD_EARN_WNE_P10: 
+Standard deviation of earnings of students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.working_not_enrolled.std_dev,integer,SD_EARN_WNE_P10,,,Treasury,
+COUNT_WNE_INC1_P10: 
+"Number of students working and not enrolled 10 years after entry in the lowest income tercile $0-$30,000",earnings,10_yrs_after_entry.working_not_enrolled.income.lowest_tercile,integer,COUNT_WNE_INC1_P10,,,Treasury,
+COUNT_WNE_INC2_P10: 
+"Number of students working and not enrolled 10 years after entry in the middle income tercile $30,001-$75,000",earnings,10_yrs_after_entry.working_not_enrolled.income.middle_tercile,integer,COUNT_WNE_INC2_P10,,,Treasury,
+COUNT_WNE_INC3_P10: 
+"Number of students working and not enrolled 10 years after entry in the highest income tercile $75,001+ ",earnings,10_yrs_after_entry.working_not_enrolled.income.highest_tercile,integer,COUNT_WNE_INC3_P10,,,Treasury,
+COUNT_WNE_INDEP0_INC1_P10: 
+"Number of dependent students working and not enrolled 10 years after entry in the lowest income tercile $0-$30,000 ",earnings,10_yrs_after_entry.working_not_enrolled.dependent_students_lowest_tercile,integer,COUNT_WNE_INDEP0_INC1_P10,,,Treasury,
+COUNT_WNE_INDEP0_P10: 
+Number of dependent students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.working_not_enrolled.dependent_students,integer,COUNT_WNE_INDEP0_P10,,,Treasury,
+COUNT_WNE_INDEP1_P10: 
+Number of independent students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.independent_students,integer,COUNT_WNE_INDEP1_P10,,,Treasury,
+COUNT_WNE_MALE0_P10: 
+Number of female students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.female_students,integer,COUNT_WNE_MALE0_P10,,,Treasury,
+COUNT_WNE_MALE1_P10: 
+Number of male students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.male_students,integer,COUNT_WNE_MALE1_P10,,,Treasury,
+GT_25K_P10: 
+"Share of students earning over $25,000/year (threshold earnings) 10 years after entry",earnings,10_yrs_after_entry.percent_greater_than_25000,float,GT_25K_P10,,,Treasury,
+MN_EARN_WNE_INC1_P10: 
+"Mean earnings of students working and not enrolled 10 years after entry in the lowest income tercile $0-$30,000",earnings,10_yrs_after_entry.mean_earnings.lowest_tercile,integer,MN_EARN_WNE_INC1_P10,,,Treasury,
+MN_EARN_WNE_INC2_P10: 
+"Mean earnings of students working and not enrolled 10 years after entry in the middle income tercile $30,001-$75,000",earnings,10_yrs_after_entry.mean_earnings.middle_tercile,integer,MN_EARN_WNE_INC2_P10,,,Treasury,
+MN_EARN_WNE_INC3_P10: 
+"Mean earnings of students working and not enrolled 10 years after entry in the highest income tercile $75,001+ ",earnings,10_yrs_after_entry.mean_earnings.highest_tercile,integer,MN_EARN_WNE_INC3_P10,,,Treasury,
+MN_EARN_WNE_INDEP0_INC1_P10: 
+"Mean earnings of dependent students working and not enrolled 10 years after entry in the lowest income tercile $0-$30,000",earnings,10_yrs_after_entry.mean_earnings.dependent_students_lowest_tercile,integer,MN_EARN_WNE_INDEP0_INC1_P10,,,Treasury,
+MN_EARN_WNE_INDEP0_P10: 
+Mean earnings of dependent students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.mean_earnings.dependent_students,integer,MN_EARN_WNE_INDEP0_P10,,,Treasury,
+MN_EARN_WNE_INDEP1_P10: 
+Mean earnings of independent students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.mean_earnings.independent_students,integer,MN_EARN_WNE_INDEP1_P10,,,Treasury,
+MN_EARN_WNE_MALE0_P10: 
+Mean earnings of female students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.mean_earnings.female_students,integer,MN_EARN_WNE_MALE0_P10,,,Treasury,
+MN_EARN_WNE_MALE1_P10: 
+Mean earnings of male students working and not enrolled 10 years after entry,earnings,10_yrs_after_entry.mean_earnings.male_students,integer,MN_EARN_WNE_MALE1_P10,,,Treasury,
+COUNT_NWNE_P6: 
+Number of students not working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.not_working_not_enrolled.overall,integer,COUNT_NWNE_P6,,,Treasury,
+COUNT_WNE_P6: 
+Number of students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.working_not_enrolled.overall,integer,COUNT_WNE_P6,,,Treasury,
+MN_EARN_WNE_P6: 
+Mean earnings of students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.working_not_enrolled.mean_earnings,integer,MN_EARN_WNE_P6,,,Treasury,
+MD_EARN_WNE_P6: 
+Median earnings of students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.median,integer,MD_EARN_WNE_P6,,,Treasury,
+PCT10_EARN_WNE_P6: 
+10th percentile of earnings of students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.working_not_enrolled.earnings_percentile.10,integer,PCT10_EARN_WNE_P6,,,Treasury,
+PCT25_EARN_WNE_P6: 
+25th percentile of earnings of students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.working_not_enrolled.earnings_percentile.25,integer,PCT25_EARN_WNE_P6,,,Treasury,
+PCT75_EARN_WNE_P6: 
+75th percentile of earnings of students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.working_not_enrolled.earnings_percentile.75,integer,PCT75_EARN_WNE_P6,,,Treasury,
+PCT90_EARN_WNE_P6: 
+90th percentile of earnings of students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.working_not_enrolled.earnings_percentile.90,integer,PCT90_EARN_WNE_P6,,,Treasury,
+SD_EARN_WNE_P6: 
+Standard deviation of earnings of students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.working_not_enrolled.std_dev,integer,SD_EARN_WNE_P6,,,Treasury,
+COUNT_WNE_INC1_P6: 
+"Number of students working and not enrolled 6 years after entry in the lowest income tercile $0-$30,000",earnings,6_yrs_after_entry.working_not_enrolled.income.lowest_tercile,integer,COUNT_WNE_INC1_P6,,,Treasury,
+COUNT_WNE_INC2_P6: 
+"Number of students working and not enrolled 6 years after entry in the middle income tercile $30,001-$75,000",earnings,6_yrs_after_entry.working_not_enrolled.income.middle_tercile,integer,COUNT_WNE_INC2_P6,,,Treasury,
+COUNT_WNE_INC3_P6: 
+"Number of students working and not enrolled 6 years after entry in the highest income tercile $75,001+ ",earnings,6_yrs_after_entry.working_not_enrolled.income.highest_tercile,integer,COUNT_WNE_INC3_P6,,,Treasury,
+COUNT_WNE_INDEP0_INC1_P6: 
+"Number of dependent students working and not enrolled 6 years after entry in the lowest income tercile $0-$30,000",earnings,6_yrs_after_entry.working_not_enrolled.dependent_students_lowest_tercile,integer,COUNT_WNE_INDEP0_INC1_P6,,,Treasury,
+COUNT_WNE_INDEP0_P6: 
+Number of dependent students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.working_not_enrolled.dependent_students,integer,COUNT_WNE_INDEP0_P6,,,Treasury,
+COUNT_WNE_INDEP1_P6: 
+Number of independent students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.independent_students,integer,COUNT_WNE_INDEP1_P6,,,Treasury,
+COUNT_WNE_MALE0_P6: 
+Number of female students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.female_students,integer,COUNT_WNE_MALE0_P6,,,Treasury,
+COUNT_WNE_MALE1_P6: 
+Number of male students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.male_students,integer,COUNT_WNE_MALE1_P6,,,Treasury,
+GT_25K_P6: 
+"Share of students earning over $25,000/year (threshold earnings) 6 years after entry",earnings,6_yrs_after_entry.percent_greater_than_25000,float,GT_25K_P6,,,Treasury,Shown/used on consumer website.
+MN_EARN_WNE_INC1_P6: 
+"Mean earnings of students working and not enrolled 6 years after entry in the lowest income tercile $0-$30,000",earnings,6_yrs_after_entry.mean_earnings.lowest_tercile,float,MN_EARN_WNE_INC1_P6,,,Treasury,
+MN_EARN_WNE_INC2_P6: 
+"Mean earnings of students working and not enrolled 6 years after entry in the middle income tercile $30,001-$75,000",earnings,6_yrs_after_entry.mean_earnings.middle_tercile,float,MN_EARN_WNE_INC2_P6,,,Treasury,
+MN_EARN_WNE_INC3_P6: 
+"Mean earnings of students working and not enrolled 6 years after entry in the highest income tercile $75,001+ ",earnings,6_yrs_after_entry.mean_earnings.highest_tercile,float,MN_EARN_WNE_INC3_P6,,,Treasury,
+MN_EARN_WNE_INDEP0_INC1_P6: 
+"Mean earnings of dependent students working and not enrolled 6 years after entry in the lowest income tercile $0-$30,000",earnings,6_yrs_after_entry.mean_earnings.dependent_students_lowest_tercile,float,MN_EARN_WNE_INDEP0_INC1_P6,,,Treasury,
+MN_EARN_WNE_INDEP0_P6: 
+Mean earnings of dependent students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.mean_earnings.dependent_students,float,MN_EARN_WNE_INDEP0_P6,,,Treasury,
+MN_EARN_WNE_INDEP1_P6: 
+Mean earnings of independent students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.mean_earnings.independent_students,float,MN_EARN_WNE_INDEP1_P6,,,Treasury,
+MN_EARN_WNE_MALE0_P6: 
+Mean earnings of female students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.mean_earnings.female_students,float,MN_EARN_WNE_MALE0_P6,,,Treasury,
+MN_EARN_WNE_MALE1_P6: 
+Mean earnings of male students working and not enrolled 6 years after entry,earnings,6_yrs_after_entry.mean_earnings.male_students,float,MN_EARN_WNE_MALE1_P6,,,Treasury,
+COUNT_NWNE_P7: 
+Number of students not working and not enrolled 7 years after entry,earnings,7_yrs_after_entry.not_working_not_enrolled,float,COUNT_NWNE_P7,,,Treasury,
+COUNT_WNE_P7: 
+Number of students working and not enrolled 7 years after entry,earnings,7_yrs_after_entry.working_not_enrolled,integer,COUNT_WNE_P7,,,Treasury,
+MN_EARN_WNE_P7: 
+Mean earnings of students working and not enrolled 7 years after entry,earnings,7_yrs_after_entry.mean_earnings,float,MN_EARN_WNE_P7,,,Treasury,
+SD_EARN_WNE_P7: 
+Standard deviation of earnings of students working and not enrolled 7 years after entry,earnings,7_yrs_after_entry.std_dev,float,SD_EARN_WNE_P7,,,Treasury,
+GT_25K_P7: 
+"Share of students earning over $25,000/year (threshold earnings) 7 years after entry",earnings,7_yrs_after_entry.percent_greater_than_25000,float,GT_25K_P7,,,Treasury,
+COUNT_NWNE_P8: 
+Number of students not working and not enrolled 8 years after entry,earnings,8_yrs_after_entry.not_working_not_enrolled,integer,COUNT_NWNE_P8,,,Treasury,
+COUNT_WNE_P8: 
+Number of students working and not enrolled 8 years after entry,earnings,8_yrs_after_entry.working_not_enrolled,integer,COUNT_WNE_P8,,,Treasury,
+MN_EARN_WNE_P8: 
+Mean earnings of students working and not enrolled 8 years after entry,earnings,8_yrs_after_entry.mean_earnings,float,MN_EARN_WNE_P8,,,Treasury,
+MD_EARN_WNE_P8: 
+Median earnings of students working and not enrolled 8 years after entry,earnings,8_yrs_after_entry.median_earnings,float,MD_EARN_WNE_P8,,,Treasury,
+PCT10_EARN_WNE_P8: 
+10th percentile of earnings of students working and not enrolled 8 years after entry,earnings,8_yrs_after_entry.10th_percentile_earnings,integer,PCT10_EARN_WNE_P8,,,Treasury,
+PCT25_EARN_WNE_P8: 
+25th percentile of earnings of students working and not enrolled 8 years after entry,earnings,8_yrs_after_entry.25th_percentile_earnings,integer,PCT25_EARN_WNE_P8,,,Treasury,
+PCT75_EARN_WNE_P8: 
+75th percentile of earnings of students working and not enrolled 8 years after entry,earnings,8_yrs_after_entry.75th_percentile_earnings,integer,PCT75_EARN_WNE_P8,,,Treasury,
+PCT90_EARN_WNE_P8: 
+90th percentile of earnings of students working and not enrolled 8 years after entry,earnings,8_yrs_after_entry.90th_percentile_earnings,integer,PCT90_EARN_WNE_P8,,,Treasury,
+SD_EARN_WNE_P8: 
+Standard deviation of earnings of students working and not enrolled 8 years after entry,earnings,8_yrs_after_entry.std_deviation,float,SD_EARN_WNE_P8,,,Treasury,
+GT_25K_P8: 
+"Share of students earning over $25,000/year (threshold earnings) 8 years after entry",earnings,8_yrs_after_entry.percent_greater_than_25000,float,GT_25K_P8,,,Treasury,
+COUNT_NWNE_P9: 
+Number of students not working and not enrolled 9 years after entry,earnings,9_yrs_after_entry.not_working_not_enrolled,integer,COUNT_NWNE_P9,,,Treasury,
+COUNT_WNE_P9: 
+Number of students working and not enrolled 9 years after entry,earnings,9_yrs_after_entry.working_not_enrolled,integer,COUNT_WNE_P9,,,Treasury,
+MN_EARN_WNE_P9: 
+Mean earnings of students working and not enrolled 9 years after entry,earnings,9_yrs_after_entry.mean_earnings,float,MN_EARN_WNE_P9,,,Treasury,
+SD_EARN_WNE_P9: 
+Standard deviation of earnings of students working and not enrolled 9 years after entry,earnings,9_yrs_after_entry.std_deviation,float,SD_EARN_WNE_P9,,,Treasury,
+GT_25K_P9: 
+"Share of students earning over $25,000/year (threshold earnings) 9 years after entry",earnings,9_yrs_after_entry.percent_greater_than_25000,float,GT_25K_P9,,,Treasury,
